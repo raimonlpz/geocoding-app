@@ -1,5 +1,7 @@
 const request = require("request");
 
+// MAPBOX API
+
 const geocode = (address, callback) => {
   const url = `https://api.mapbox.com/geocoding/v5/mapbox.places/${address}.json?access_token=pk.eyJ1IjoicmFpbW9uMTIzIiwiYSI6ImNrOGEwbDVlNzA2aGUzbGxvMnVkZWV6YjkifQ.HobSv-zMpbkwG59UGJx_SQ&limit=1`;
 
