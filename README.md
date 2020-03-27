@@ -3,4 +3,4 @@
 
 Instructions:
 1) Run npm install
-2) Run: 'node app.js [your location]'
+2) <cite>Run 'node app.js [your location]</cite>'
